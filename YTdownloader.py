@@ -235,7 +235,9 @@ class HomePage(customtkinter.CTk):
             self.convert_directory.delete(0, tkinter.END)
             self.convert_directory.insert(tkinter.END, directory)
             
-
+    def yazdir():
+        print("merhaba git")
+        
     def convert(self):
         input_file=self.convert_directory.get()
         format=self.optionmenu_1.get()
